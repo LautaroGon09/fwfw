@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  
+    <title>El Gordo Tailwind</title>
+    <link rel="stylesheet" href="/css/tailwind.css">
+    
+    
+</head>
+
+<body class="container mx-auto mt-5">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <!--                              (separa titulo de boton-menu)  -->
+    <nav class="flex items-center justify-between    flex-wrap bg-teal-500 p-6">
+                    <!--                         (baja el menu) -->
+
+                    <!--              (evita que un artículo flexible se encoja)  -->
+        <div class="flex items-center           flex-shrink-0                          text-white mr-6">
+
+            <a href=""><img  class="fill-current  w-24 mr-2" src="imgs/Logo.png" alt=""></a>
+       <!--                                 (modifica el text) -->
+          <span class="font-semibold text-xl tracking-tight">Ropa de Seguridad</span>
+       
+        </div>
+
+        <div class="flex   h-12 my-auto menuHead mr-2 ">
+   
+            <div class="flex m-auto text-right">
+
+              <input class=" h-7 text-md  focus:outline-none focus:placeholder-transparent" type="text" >
+              <a href="" class="   "><img  class="h-7 py-1 border border-teal-600   bg-teal-700 " src="imgs/Lupa.png"></a>
+             
+            </div>
+
+          </div>
+
+        <div class="block lg:hidden">
+         
+            <button id='boton' class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+            </button>
+
+        </div>
+
+        
+        
+        <div id='menu' class="w-full  flex-grow lg:flex lg:items-center lg:w-auto ">
+          
+            <div class="text-sm lg:flex-grow">
+                <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                   inicio
+                   </a>
+                    <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                     Log in/Sing in
+                    </a>
+                  
+
+            </div>
+
+            
+
+        </div>
+
+        
+        
+    </nav>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!--(container predef)   (border)   (padding)       -->
+    <div class="container mx-auto    border     p-5         mt-5        ">
+                   <!--   (margin right-left center) -->         
+
+            <!--    (backcolor azul 500(maximo))            (colortext blanco)          (padding top-bottom (2))        (border-radius)                   (margin-top)                         -->
+         <button class="bg-blue-500    hover:bg-red-500      text-white    font-bold     py-2    px-4                    rounded         sm:bg-blue-500    mt-5"     > 
+                          <!--         (backcolor hover rojo)              (fuente negrita)     (padding left-right(4))                 (Resposinve (sm/md/lg/xl))                                          -->
+      
+                          BOTONACO
+         </button>
+         <h1>---------------------------------------------------------------------------
+        ----------------------------------------------------------------------------------
+        ------------------------------------------------
+         </h1>
+
+     <!--          (margin-top)             (fontzice )         -->    
+        <h1 class="mt-5    text-green-600   text-3xl    text-center">Esto es un H1 </h1>
+     <!--                  (colortext   )             (text aling center)           -->   
+
+  <!--             (colortext    )  (text aling right)                  -->   
+        <h2 class="text-purple-500  text-right  ">Eto es un H2</h2>
+
+    <!--           (colortext   )  (pasa a mayus)                   -->         
+        <h3 class="text-yellow-600 uppercase">ESTO ES UN H3</h3>
+
+    <!--           (background) (font-color) (text-aling center)  ( pading ) (margin-center) (border-radius) (font-zice) (width)            -->         
+        <h4 class="bg-pink-600  text-white   text-center          py-3 px-4  mx-auto          rounded-md      text-xl     w-48"  >Esto es un H4</h4>
+
+    <!--           (colortext   )                    -->         
+        <h5 class="text-cyan-700  shadow-md     ">Esto es un H5</h5>
+        <h6>Esto es un H6</h6>
+        <h1>---------------------------------------------------------------------------
+            ----------------------------------------------------------------------------------
+            ------------------------------------------------
+             </h1>
+
+        <!--       (margin top (1=0.25rem)) (padding-rigth)                                  -->
+        <div class="mt-5      p-5           pr-10          border"     >
+                    <!--     ( padding)                    (borde) -->     
+
+                 <!-- (font-size) -->   
+            <p class="text-lg sm:text-sm">
+
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus 
+                blanditiis magni repellendus quis placeat natus praesentium hic vitae 
+                fuga, dolor quos corporis eum repudiandae eius ut temporibus tempore vero facilis?
+            </p>
+            
+        </div>
+        
+    </div>   
+    <h1>---------------------------------------------------------------------------
+        ----------------------------------------------------------------------------------
+        ------------------------------------------------
+         </h1> 
+
+    <div class=" container mx-auto mt-5 text-center ">
+<!--                     (responsive base)  (responsive chico)  (responsive mediano) (responsive grnade)-->
+        <div class="grid grid-cols-         sm:grid-cols-2      md:grid-cols-3       xl:grid-cols-4 gap-4 my-2">
+           
+            <div class="bg-red-400">A</div>
+            <div class="bg-red-400">A</div>
+            <div class="bg-red-400">A</div>
+            <div class="bg-red-400">A</div>
+
+        </div>
+
+        <div class="grid grid-cols-4 gap-4 mt-2">
+           <!--                     (toma 2 espacios) -->
+            <div class="bg-cyan-400 col-span-2">A</div>
+            <div class="bg-cyan-400">A</div>
+            <div class="bg-cyan-400">A</div>
+            <div class="bg-cyan-400">A</div>
+ 
+        </div>
+        <div class="grid grid-cols-4 gap-4 mt-2">
+
+            <!--                      (empieza en la 2da col)               -->
+            <div class="bg-purple-400 col-start-2">A</div>
+            <!--                      (termina en la 2da col)            -->
+            <div class="bg-purple-400 col-end-2">A</div>
+            <div class="bg-purple-400">A</div>
+            <div class="bg-purple-400">A</div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-4 gap-4 grid-rows-5 sm:grid-rows-2 mt-2">
+             <div class="bg-cyan-400">A</div>
+             <div class="bg-cyan-400">A</div>
+             <div class="bg-cyan-400 col-span-1 sm:col-span-2 row-span-1 sm:row-span-2">B</div>
+             <div class="bg-cyan-400">A</div>
+             <div class="bg-cyan-400">A</div>
+  
+         </div>
+         <h1>---------------------------------------------------------------------------
+            ----------------------------------------------------------------------------------
+            ------------------------------------------------
+             </h1>
+        
+    </div> 
+<!--            (row(default))                    (bajan en ss)                   -->
+    <div class="flex flex-row-reverse text-center flex-wrap">
+        <!--         (arranca en la izq) -->
+        <div class="bg-orange-300 p-4 m-2">1</div>
+        <div class="bg-orange-300 p-4 m-2">2</div>
+        <div class="bg-orange-300 p-4 m-2">3</div>
+    </div>
+
+    <div class="flex flex-col-reverse text-center ">
+        <!--         (colums) -->
+        <div class="bg-cyan-900 p-4 m-2">1</div>
+        <div class="bg-cyan-900 p-4 m-2">2</div>
+        <div class="bg-cyan-900 p-4 m-2">3</div>
+    </div>
+        <!--     (center, end, start, ) -->
+        <div class="flex justify-between bg-gray-500 ">
+        <div class="bg-red-500 p-4 m-2">1</div>
+        <div class="bg-red-500 p-4 m-2">2</div>
+        <div class="bg-red-500 p-4 m-2">3</div>
+    </div>
+        <!--                         (center, end, start, between, stretch, arround ) -->
+    <div class="flex h-64  bg-cyan-900 items-end ">
+        <div class="bg-red-500 p-4 m-2">1</div>
+        <div class="bg-red-500 p-4 m-2">2</div>
+        <div class="bg-red-500 p-4 m-2">3</div>
+    </div>  
+       <!--                         (center, end, start, between, ) -->
+    <div class="flex    h-64  bg-blue-900  ">
+
+        <div class="bg-red-500 p-4 m-2 ">1</div>
+        <div class="bg-red-500 p-4 m-2 self-center">2</div>
+        <div class="bg-red-500 p-4 m-2 self-end">3</div>
+    </div>
+         <!--                         (center, end, start, between, ) -->
+    <div class="flex flex-wrap items-start h-64  bg-yellow-900  ">
+<!--                (max w disponible) -->
+        <div class="flex-1 bg-red-500 p-4 m-2 ">1</div>
+        <div class="bg-red-500 p-4 m-2 ">Lorem ipsum dolor sit.</div>
+        <div class="bg-red-500 p-4 m-2 ">3</div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+
+</body>
+</html>
